@@ -158,73 +158,99 @@
               align-items: center;
               position: absolute;
               width: 90vw;
-              height: 100vh;
+              height: 200vh;
               top: 0%;
               left: 0%;
-              background-image: linear-gradient( 180deg,rgba(35, 99, 236, 0.323),rgba(35, 99, 236, 0.575),rgba(17, 88, 240, 0.781));
+              background-image:url("galleryback.jpg");
               
-
+              
           }
           
           #i1{
             position: absolute;
             width: 30vw;
-            height: 40vh;
+            height: 90vh;
            background-image: url("p7.jpg");
            background-size: cover;
            box-shadow: 1px 1px 10px rgba(35, 56, 53, 0.678), 0 0 25px rgba(10, 116, 101, 0.678), 0 0 5px rgba(10, 116, 101, 0.678);
+           
 
-
-            top: 11%;
-            left: 10vw;
-            transition: .5s;
+            top: 5vh;
+            left: 30vw;
+            transition: 1s;
+            transform-style: preserve-3d;
+            z-index: 1;
             
 
           }
           #i2{
-            box-shadow: 1px 1px 10px rgba(35, 56, 53, 0.678), 0 0 25px rgba(10, 116, 101, 0.678), 0 0 5px rgba(10, 116, 101, 0.678);
-
             position: absolute;
+            background: transparent;
             width: 30vw;
-            height: 40vh;
-            background-image: url("IMG_20211015_163605.jpg");
-           background-size: cover;
-            top: 11%;
-            left: 50vw;
-            transition: .5s;
-
+            height: 90vh;
+            left: 30vw;
+            z-index: 2;
+            
+          
           }
-          #i3{
+         
+          #left{
+              position: absolute;
+              background-color:rgba(0, 0, 255, 0.377);
+              top: 35vh;
+              left: 15vw;
+              z-index: 1;
+              height: 120px;
+              width: 120px;
+              box-shadow: 1px 1px 10px rgba(21, 104, 91, 0.678), 0 0 25px rgba(10, 17, 116, 0.678), 0 0 5px rgba(10, 44, 116, 0.678);
+              ;
+              border-radius: 20%;
+              font-size: 60px;
+              color: white;
+              font-style: oblique;
+              font-family: 'Times New Roman', Times, serif;
+              font-weight: 900;
+              
+          }
+          #right{
             position: absolute;
-            width: 30vw;
-            height: 40vh;
-            top: 55vh;
-            left: 10vw;
-            background-image: url("IMG20211024154425.jpg");
-            background-size: cover;
-            box-shadow: 1px 1px 10px rgba(35, 56, 53, 0.678), 0 0 25px rgba(10, 116, 101, 0.678), 0 0 5px rgba(10, 116, 101, 0.678);
-            transition: .5s;
-
-          }
-          #i4{
-            position: absolute;
-            width: 30vw;
-            height: 40vh;
-            top: 55vh;
-            left: 50vw;
-            transition: .5s;
-            background-image: url("IMG_20211015_163605.jpg");
-            background-size: cover;
-            box-shadow: 1px 1px 10px rgba(35, 56, 53, 0.678), 0 0 25px rgba(10, 116, 101, 0.678), 0 0 5px rgba(10, 116, 101, 0.678);
-
-
-          }
-          #i4:hover,#i1:hover,#i2:hover,#i3:hover{
-            width: 42%;
-            height: 42%;
+            background-color:rgba(0, 0, 255, 0.377);
+            top: 35vh;
+            left: 65vw;
+            z-index: 1;
+            height: 120px;
+            width: 120px;
+            box-shadow: 1px 1px 10px rgba(21, 104, 91, 0.678), 0 0 25px rgba(10, 17, 116, 0.678), 0 0 5px rgba(10, 68, 116, 0.678);
+            ;
+            border-radius: 20%;
+            font-size: 60px;
+              color: white;
+              font-style: oblique;
+              font-family: 'Times New Roman', Times, serif;
+              font-weight: 900;
+             
+        }
+          
+          #i2:hover{
+           box-shadow: 1px 1px 10px rgba(21, 104, 91, 0.678), 0 0 25px rgba(82, 10, 116, 0.678), 0 0 5px rgba(10, 116, 101, 0.678);
+           ;
+           height: 90vh;
             cursor: pointer;
-
+            border: solid;
+            transition-duration: 500ms;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.288),rgba(0, 0, 0, 0.692),black);
+            transition-duration: .5s;
+            
           }
+         
+
+          #left:hover,#right:hover{
+              background-color: rgba(0, 0, 255, 0.452);
+              cursor: pointer;
+          }
+         
+
+
           @media screen and (max-width:959px){
             .nav{
                 position: fixed;
@@ -293,26 +319,34 @@
                 height: 40vh;
                 left: 5vw;
             }
+            #i2{
+                position: absolute;
+                width: 40vw;
+                height: 40vh;
+                left: 5vw;
+            }
+
+            #right{
+                position: absolute;
+                background-color:rgba(0, 0, 255, 0.377);
+                top: 35vh;
+                left: 65vw;
+                z-index: 1;
+                height: 40px;
+                width: 40px;
+                box-shadow: 1px 1px 10px rgba(21, 104, 91, 0.678), 0 0 25px rgba(10, 17, 116, 0.678), 0 0 5px rgba(10, 68, 116, 0.678);
+                ;
+                border-radius: 20%;
+                font-size: 60px;
+                  color: white;
+                  font-style: oblique;
+                  font-family: 'Times New Roman', Times, serif;
+                  font-weight: 900;
+                 
+            }
+              
             
-                #i2{
-                    position: absolute;
-                    width: 40vw;
-                    height: 40vh;
-                    left: 55vw;
-                }
-                #i4{
-                    position: absolute;
-                    width: 40vw;
-                    height: 40vh;
-                    left: 55vw;
-                }
-                #i3{
-                    position: absolute;
-                    width: 40vw;
-                    height: 40vh;
-                    left: 5vw;
-                }
-            
+               
         }
         @media screen and (max-width:700px){
             .images{
@@ -321,43 +355,71 @@
             }
             #i1{position: absolute;
             width: 60vw;
-            height: 40vh;
+            height: 80vh;
             left: 20vw;
-            top: 10vh;
+            top: 30vh;
         }
         
-            #i2{
-                position: absolute;
-                width: 60vw;
-                height: 40vh;
-                left: 20vw;
-                top: 55vh;
-            }
-            #i4{
-                position: absolute;
-                width: 60vw;
-                height: 40vh;
-                left: 20vw;
-                top: 145vh;
-            }
-            #i3{
-                position: absolute;
-                width: 60vw;
-                height: 40vh;
-                left: 20vw;
-                top: 100vh;
-            }
-            #i4:hover,#i1:hover,#i2:hover,#i3:hover{
-                width: 62vw;
-                height: 42vh;
-                cursor: pointer;
-    
-              }
+        #i2{position: absolute;
+            width: 80vw;
+            height: 40vh;
+            left: 20vw;
+            top: 30vh;
+        }
+        
             
+        #i2:hover{
+            box-shadow: 1px 1px 10px rgba(21, 104, 91, 0.678), 0 0 25px rgba(82, 10, 116, 0.678), 0 0 5px rgba(10, 116, 101, 0.678);
+            ;
+            height: 40vh;
+             cursor: pointer;
+             border: solid;
+             transition-duration: 500ms;
+             background-image: linear-gradient(rgba(255, 255, 255, 0.288),rgba(0, 0, 0, 0.692),black);
+             transition-duration: .5s;
+             
+           }
             
             
         
 
+           #right{
+            position: absolute;
+            background-color:rgba(0, 0, 255, 0.377);
+            top: 45vh;
+            left: 83vw;
+            z-index: 1;
+            height: 50px;
+            width: 50px;
+            box-shadow: 1px 1px 10px rgba(21, 104, 91, 0.678), 0 0 25px rgba(10, 17, 116, 0.678), 0 0 5px rgba(10, 68, 116, 0.678);
+            ;
+            border-radius: 20%;
+            font-size: 40px;
+              color: white;
+              font-style: oblique;
+              font-family: 'Times New Roman', Times, serif;
+              font-weight: 900;
+             align-items: center;
+        }
+        
+        #left{
+            position: absolute;
+            background-color:rgba(0, 0, 255, 0.377);
+            top: 45vh;
+            left: 1vw;
+            z-index: 1;
+            height: 50px;
+            width: 50px;
+            box-shadow: 1px 1px 10px rgba(21, 104, 91, 0.678), 0 0 25px rgba(10, 17, 116, 0.678), 0 0 5px rgba(10, 68, 116, 0.678);
+            border-radius: 20%;
+            font-size: 40px;
+              color: white;
+              font-style: oblique;
+              font-family: 'Times New Roman', Times, serif;
+              font-weight: 900;
+             align-items: center;
         }
         
         
+
+    }
