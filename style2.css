@@ -108,7 +108,7 @@
         left: 0px;
         height: 100vh;
         margin: 0%;
-        background-image: url(mk.jpg);
+        background-image: url(m1.jpg);
         background-size: cover;
         position: absolute;
         overflow: hidden;
@@ -170,13 +170,14 @@
               align-items: center;
               border: rgb(12, 20, 4);
               border-style: solid;
-              border-width: 5px;
+              border-width: 1px;
               align-self: center;
               left: 40vw;
               top: 10vh;
-              background-image: url("p2.jpg");
+              background-image: url("m1.jpg");
               background-size: cover;
-              
+              box-shadow: 1px 1px 10px rgba(25, 34, 48, 0.678), 0 0 25px rgba(45, 43, 46, 0.678), 0 0 5px rgba(21, 207, 182, 0.678);
+              ;
               color: transparent;
               transition: color .5s;
 
@@ -196,6 +197,10 @@
           .pic:hover{
               color: white;
               cursor: pointer;
+              box-shadow: 1px 1px 10px rgba(134, 0, 67, 0.678), 0 0 25px rgba(82, 10, 116, 0.678), 0 0 5px rgba(10, 116, 101, 0.678);
+              ;
+
+
               
           }
           @media screen and (max-width:959px){
@@ -268,6 +273,38 @@
         }
         
         }
+        .text{
+            position: absolute;
+            background-color: white;
+            width: 80vw;
+            height: 20vh;
+            left: 5vw;
+            top: 60vh;
+            border-radius: 20vh;
+            font-size: 30px;
+            text-align: center;
+            font-family: sans-serif;
+            font-style: italic;
+            box-shadow: 5px 5px 10px rgba(21, 104, 91, 0.678), 0 0 25px rgba(82, 10, 116, 0.678), 0 0 5px rgba(10, 116, 101, 0.678);
+            ;
+           
+            
+        }
+        .text:hover{
+
+            background-color: rgba(0, 0, 0, 0.918);
+            cursor: pointer;
+            transition-duration: 500ms;
+            color: white;
+            box-shadow: 1px 1px 10px rgba(250, 246, 248, 0.678), 0 0 25px rgba(254, 253, 255, 0.678), 0 0 5px rgb(252, 252, 252);
+                ;
+               
+            
+        
+
+        }
+        
+        
         @media screen and (max-width:660px){
 
             .pic{
@@ -276,6 +313,47 @@
                 left: 35vw;
                 top: 15vh;
             }
+
+            .text{
+                position: absolute;
+                background-color: rgba(255, 255, 255, 0.596);
+                width: 80vw;
+                height: 50vh;
+                left: 10vw;
+                top: 40vh;
+                border-radius: 20vw;
+                font-size: 15px;
+                text-align: center;
+                font-family: sans-serif;
+                font-style: italic;
+                box-shadow: 1px 1px 10px rgba(134, 0, 67, 0.678), 0 0 25px rgba(82, 10, 116, 0.678), 0 0 5px rgba(10, 116, 101, 0.678);
+                ;
+                overflow: hidden;
+                
+            }
+            .text:hover{
+
+                background-color: rgba(0, 0, 0, 0.692);
+                cursor: pointer;
+                transition-duration: 500ms;
+                color: white;
+                box-shadow: 1px 1px 10px rgba(250, 246, 248, 0.678), 0 0 25px rgba(254, 253, 255, 0.678), 0 0 5px rgb(252, 252, 252);
+                ;
+               
+                text-align: center;
+                
+            
+    
+            }
+            #quote{
+                position: relative;
+                margin: 5px;
+                top: 30%;
+               
+            }
+            
             
         }
+
+        
           
