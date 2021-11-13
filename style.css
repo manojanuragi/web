@@ -99,8 +99,70 @@
    
 
 }
+.icons{
+    position: absolute;
+    height: 40px;
+    width: 90%;
+    z-index: 4;
+    padding: auto;
+    top: 85%;
+    left: 25%;
+}
+.fa {
+    position: relative;
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+   z-index: 18;
+    box-shadow: 1px 1px 10px rgba(41, 42, 70, 0.678), 0 0 25px rgba(9, 40, 80, 0.678), 0 0 5px rgba(18, 5, 77, 0.945);
+   
     
-
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: .6;
+    cursor: pointer;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+   left: 5%;
+    background: white;
+    color:black;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    left: 10%;
+    background: white;
+    color:black;
+  }
+  
+  .fa-linkedin {
+    left: 15%;
+    background: white;
+    color:black;
+  }
+  
+  .fa-instagram {
+    left: 20%;
+    background: white;
+    color:black;
+  }
+  
+  .fa-youtube {
+    left: 25%;
+    background: white;
+    color:black;
+  }
+  
+  
 .img{
     top: 0px;
     width: 90vw;
@@ -278,7 +340,7 @@
     position: relative;
     text-shadow: teal;
     align-content: center;
-    top: 40vh;
+    top: 35vh;
     bottom: 50vh;
     font-size: 10vh;
     z-index: 10;
@@ -293,7 +355,7 @@
     position: relative;
    text-shadow: black;
     align-content: center;
-    top: 40vh;
+    top: 35vh;
     bottom: 60vh;
     font-size: 3vh;
     z-index: 10;
@@ -307,10 +369,10 @@
     text-align: center;
     font-weight: bold;
     position: relative;
-    left: 45vw;
+    left: 40vw;
     right: 50vw;
     align-content: center;
-    top: 40vh;
+    top: 35vh;
     bottom: 60vh;
     font-size: 2vh;
     z-index: 10;
@@ -357,6 +419,9 @@
     
 }
 @media screen and (max-width:959px){
+    .img button{
+        left: 35vw;
+    }
     .nav{
         position: fixed;
         right: 0px;
@@ -415,6 +480,26 @@
        top: 2%;
     
     }
+
+    .icons{
+        position: absolute;
+        height: 30px;
+        width: 100%;
+        z-index: 4;
+    }
+    .fa {
+    
+        padding: 10px;
+        font-size: 20px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 20%;
+       z-index: 18;
+        box-shadow: 1px 1px 10px rgba(41, 42, 70, 0.678), 0 0 25px rgba(9, 40, 80, 0.678), 0 0 5px rgba(18, 5, 77, 0.945);
+       
+        
+      }
 
 }
 
