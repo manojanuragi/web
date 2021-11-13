@@ -7,9 +7,8 @@
 </head>
 <body>
     <div class="nav">
-        <a href="https://www.youtube.com/channel/UCJqKHTOemq7nBeosU-r9INw"><img src="art.png" ></a> 
-         
-         <audio src="SONG.mp3"></audio>
+        <a href="https://www.youtube.com/channel/UCJqKHTOemq7nBeosU-r9INw" target="_blank" rel="noopener noreferrer"><img src="art.png" ></a> 
+ 
          <ul id="list" style="list-style-type: none;">
              <li> <a id="box1" href="index.html" > Home</a></li>
              <br>
@@ -24,14 +23,19 @@
         <ul style="list-style-type: none;">
             <li id="i1"></li>
             <br>
-            <li id="i2"></li>
+            <li><button id="i2" onmouseover="textShow()" onmouseleave="textHide()">
+               
+            </button>
+            </li>
             <br>
-            <li id="i3"></li>
-            <li id="i4"></li>
+            <li ><button id="left" onclick="lPic()"><</button></li>
+            <li><button  id="right" onclick="rPic()">></button></li>
+            
         </ul>
         
 
      </div>
+     <script src="index.js"></script>
     
 </body>
 </html>
