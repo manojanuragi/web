@@ -315,13 +315,13 @@
             }
             #i1{
                 position: absolute;
-                width: 40vw;
+                width: 60vw;
                 height: 40vh;
                 left: 5vw;
             }
             #i2{
                 position: absolute;
-                width: 40vw;
+                width: 60vw;
                 height: 40vh;
                 left: 5vw;
             }
@@ -353,7 +353,7 @@
                 width: 100%;
                 height: 200%;
             }
-            #i1{position: absolute;
+         #i1{position: absolute;
             width: 60vw;
             height: 40vh;
             left: 20vw;
